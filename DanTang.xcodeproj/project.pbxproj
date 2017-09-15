@@ -1,0 +1,1106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9498751A1E84A83400E9800F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949875191E84A83400E9800F /* Assets.xcassets */; };
+		949875281E84A83400E9800F /* DanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875271E84A83400E9800F /* DanTangTests.swift */; };
+		949875331E84A83400E9800F /* DanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875321E84A83400E9800F /* DanTangUITests.swift */; };
+		9498755D1E84AA6C00E9800F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875561E84AA6C00E9800F /* AppDelegate.swift */; };
+		9498755E1E84AA6C00E9800F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 949875571E84AA6C00E9800F /* Info.plist */; };
+		9498755F1E84AA6C00E9800F /* SettingCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 949875581E84AA6C00E9800F /* SettingCell.plist */; };
+		949875611E84AB1700E9800F /* YMNewfeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875601E84AB1700E9800F /* YMNewfeatureViewController.swift */; };
+		949875651E84AE3100E9800F /* YMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875641E84AE3100E9800F /* YMConst.swift */; };
+		949875671E84AEA900E9800F /* YMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875661E84AEA900E9800F /* YMTabBarController.swift */; };
+		949875691E84AF7F00E9800F /* YMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875681E84AF7F00E9800F /* YMNavigationController.swift */; };
+		9498756B1E84B07700E9800F /* YMDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498756A1E84B07700E9800F /* YMDanTangViewController.swift */; };
+		9498756D1E84B09300E9800F /* YMMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498756C1E84B09300E9800F /* YMMeViewController.swift */; };
+		9498756F1E84B0A400E9800F /* YMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498756E1E84B0A400E9800F /* YMProductViewController.swift */; };
+		949875711E84B0B500E9800F /* YMCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875701E84B0B500E9800F /* YMCategoryViewController.swift */; };
+		949875731E84B12900E9800F /* YMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875721E84B12900E9800F /* YMBaseViewController.swift */; };
+		949875751E84B23900E9800F /* YMNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875741E84B23900E9800F /* YMNetworkTool.swift */; };
+		949875791E84B2B700E9800F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875781E84B2B700E9800F /* UIView+Extension.swift */; };
+		9498757B1E84B30200E9800F /* UITableView+EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498757A1E84B30200E9800F /* UITableView+EmptyData.swift */; };
+		9498757D1E84B36F00E9800F /* YMVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498757C1E84B36F00E9800F /* YMVerticalButton.swift */; };
+		9498757F1E84B3B900E9800F /* YMGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498757E1E84B3B900E9800F /* YMGroup.swift */; };
+		949875821E84B41B00E9800F /* YMCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875801E84B41B00E9800F /* YMCollection.swift */; };
+		949875831E84B41B00E9800F /* YMCollectionPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875811E84B41B00E9800F /* YMCollectionPost.swift */; };
+		949875871E84B42900E9800F /* YMChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875841E84B42900E9800F /* YMChannel.swift */; };
+		949875881E84B42900E9800F /* YMHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875851E84B42900E9800F /* YMHomeItem.swift */; };
+		949875891E84B42900E9800F /* YMSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875861E84B42900E9800F /* YMSearchResult.swift */; };
+		9498758B1E84B43A00E9800F /* YMSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498758A1E84B43A00E9800F /* YMSetting.swift */; };
+		9498758F1E84B44500E9800F /* YMProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498758C1E84B44500E9800F /* YMProduct.swift */; };
+		949875901E84B44500E9800F /* YMProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498758D1E84B44500E9800F /* YMProductDetail.swift */; };
+		949875911E84B44500E9800F /* YMComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498758E1E84B44500E9800F /* YMComment.swift */; };
+		949875941E84B47D00E9800F /* YMSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875921E84B47D00E9800F /* YMSettingCell.swift */; };
+		949875951E84B47D00E9800F /* YMSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875931E84B47D00E9800F /* YMSettingCell.xib */; };
+		949875981E84B4A400E9800F /* YMMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875961E84B4A400E9800F /* YMMeFooterView.swift */; };
+		949875991E84B4A400E9800F /* YMMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875971E84B4A400E9800F /* YMMineHeaderView.swift */; };
+		9498759C1E84B5B200E9800F /* YMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498759A1E84B5B200E9800F /* YMLoginViewController.swift */; };
+		9498759D1E84B5B200E9800F /* YMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9498759B1E84B5B200E9800F /* YMLoginViewController.xib */; };
+		949875A01E84B60F00E9800F /* YMRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498759E1E84B60F00E9800F /* YMRegisterViewController.swift */; };
+		949875A11E84B60F00E9800F /* YMRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9498759F1E84B60F00E9800F /* YMRegisterViewController.xib */; };
+		949875A31E84B63100E9800F /* YMMeChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875A21E84B63100E9800F /* YMMeChoiceView.swift */; };
+		949875A51E84B79100E9800F /* YMSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875A41E84B79100E9800F /* YMSettingViewController.swift */; };
+		949875A71E84B80B00E9800F /* YMMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875A61E84B80B00E9800F /* YMMessageViewController.swift */; };
+		949875A91E84B99800E9800F /* YMActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875A81E84B99800E9800F /* YMActionSheet.swift */; };
+		949875AB1E84BA3600E9800F /* YMShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875AA1E84BA3600E9800F /* YMShareButtonView.swift */; };
+		949875AE1E84BAED00E9800F /* YMCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875AC1E84BAED00E9800F /* YMCollectionViewCell.swift */; };
+		949875AF1E84BAED00E9800F /* YMCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875AD1E84BAED00E9800F /* YMCollectionViewCell.xib */; };
+		949875B21E84BB8700E9800F /* YMDetailChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875B01E84BB8700E9800F /* YMDetailChoiceButtonView.swift */; };
+		949875B31E84BB8700E9800F /* YMDetailChoiceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875B11E84BB8700E9800F /* YMDetailChoiceButtonView.xib */; };
+		949875B61E84BBAE00E9800F /* YMDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875B41E84BBAE00E9800F /* YMDetailCollectionViewCell.swift */; };
+		949875B71E84BBAE00E9800F /* YMDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875B51E84BBAE00E9800F /* YMDetailCollectionViewCell.xib */; };
+		949875BC1E84BBBD00E9800F /* YMProductDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875B81E84BBBD00E9800F /* YMProductDetailBottomView.swift */; };
+		949875BD1E84BBBD00E9800F /* YMProductDetailToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875B91E84BBBD00E9800F /* YMProductDetailToolBar.swift */; };
+		949875BE1E84BBBD00E9800F /* YMProductDetailToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875BA1E84BBBD00E9800F /* YMProductDetailToolBar.xib */; };
+		949875BF1E84BBBD00E9800F /* YMProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875BB1E84BBBD00E9800F /* YMProductDetailTopView.swift */; };
+		949875C31E84BBDE00E9800F /* YMDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875C01E84BBDE00E9800F /* YMDetailScrollView.swift */; };
+		949875C41E84BBDE00E9800F /* YMCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875C11E84BBDE00E9800F /* YMCommentCell.swift */; };
+		949875C51E84BBDE00E9800F /* YMCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875C21E84BBDE00E9800F /* YMCommentCell.xib */; };
+		949875C81E84C23100E9800F /* YMHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875C61E84C23100E9800F /* YMHomeCell.swift */; };
+		949875C91E84C23100E9800F /* YMHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875C71E84C23100E9800F /* YMHomeCell.xib */; };
+		949875CD1E84C26900E9800F /* YMRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875CA1E84C26900E9800F /* YMRefreshControl.swift */; };
+		949875CE1E84C26900E9800F /* YMRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875CB1E84C26900E9800F /* YMRefreshView.swift */; };
+		949875CF1E84C26900E9800F /* YMRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875CC1E84C26900E9800F /* YMRefreshView.xib */; };
+		949875D41E84C2F000E9800F /* YMSearchRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875D01E84C2F000E9800F /* YMSearchRecordView.swift */; };
+		949875D51E84C2F000E9800F /* YMSortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875D11E84C2F000E9800F /* YMSortCell.swift */; };
+		949875D61E84C2F000E9800F /* YMSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875D21E84C2F000E9800F /* YMSortCell.xib */; };
+		949875D71E84C2F000E9800F /* YMSortTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875D31E84C2F000E9800F /* YMSortTableView.swift */; };
+		949875D91E84C3BD00E9800F /* YMDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875D81E84C3BD00E9800F /* YMDetailViewController.swift */; };
+		949875DC1E84C3C100E9800F /* YMSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875DA1E84C3C100E9800F /* YMSearchViewController.swift */; };
+		949875DD1E84C3C100E9800F /* YMTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875DB1E84C3C100E9800F /* YMTopicViewController.swift */; };
+		949875E11E84C4D700E9800F /* YMProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875DE1E84C4D700E9800F /* YMProductDetailViewController.swift */; };
+		949875E21E84C4D700E9800F /* YMTMALLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875DF1E84C4D700E9800F /* YMTMALLViewController.swift */; };
+		949875E31E84C4D700E9800F /* YMTMALLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875E01E84C4D700E9800F /* YMTMALLViewController.xib */; };
+		949875ED1E84C64100E9800F /* YMCategoryBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875E41E84C64100E9800F /* YMCategoryBottomView.swift */; };
+		949875EE1E84C64100E9800F /* YMCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875E51E84C64100E9800F /* YMCategoryCollectionViewCell.swift */; };
+		949875EF1E84C64100E9800F /* YMCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875E61E84C64100E9800F /* YMCategoryCollectionViewCell.xib */; };
+		949875F01E84C64100E9800F /* YMCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875E71E84C64100E9800F /* YMCollectionTableViewCell.swift */; };
+		949875F11E84C64100E9800F /* YMCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875E81E84C64100E9800F /* YMCollectionTableViewCell.xib */; };
+		949875F21E84C64100E9800F /* YMSeeAllTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875E91E84C64100E9800F /* YMSeeAllTopicCell.swift */; };
+		949875F31E84C64100E9800F /* YMSeeAllTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875EA1E84C64100E9800F /* YMSeeAllTopicCell.xib */; };
+		949875F41E84C64100E9800F /* YMTopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875EB1E84C64100E9800F /* YMTopHeaderView.swift */; };
+		949875F51E84C64100E9800F /* YMTopHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875EC1E84C64100E9800F /* YMTopHeaderView.xib */; };
+		949875FE1E84F2BB00E9800F /* YMCollectionDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875F81E84F2BB00E9800F /* YMCollectionDetailController.swift */; };
+		949875FF1E84F2BB00E9800F /* YMCollectionDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875F91E84F2BB00E9800F /* YMCollectionDetailController.xib */; };
+		949876001E84F2BB00E9800F /* YMPostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875FA1E84F2BB00E9800F /* YMPostDetailViewController.swift */; };
+		949876011E84F2BB00E9800F /* YMPostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875FB1E84F2BB00E9800F /* YMPostDetailViewController.xib */; };
+		949876021E84F2BB00E9800F /* YMSeeAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949875FC1E84F2BB00E9800F /* YMSeeAllController.swift */; };
+		949876031E84F2BB00E9800F /* YMSeeAllController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949875FD1E84F2BB00E9800F /* YMSeeAllController.xib */; };
+		949876051E84F2DB00E9800F /* YMCategoryHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949876041E84F2DB00E9800F /* YMCategoryHeaderViewController.swift */; };
+		B047E71690AFE0C408DD18D7 /* Pods_DanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5428C704355532C8677DA /* Pods_DanTang.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		949875241E84A83400E9800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949875071E84A83400E9800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9498750E1E84A83400E9800F;
+			remoteInfo = DanTang;
+		};
+		9498752F1E84A83400E9800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949875071E84A83400E9800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9498750E1E84A83400E9800F;
+			remoteInfo = DanTang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D5428C704355532C8677DA /* Pods_DanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447B24D7DBE168286FAA6968 /* Pods-DanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.debug.xcconfig"; sourceTree = "<group>"; };
+		50A9413FAEE0DE75FBD432EE /* Pods-DanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTang/Pods-DanTang.release.xcconfig"; sourceTree = "<group>"; };
+		9498750F1E84A83400E9800F /* DanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949875191E84A83400E9800F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		949875231E84A83400E9800F /* DanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949875271E84A83400E9800F /* DanTangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangTests.swift; sourceTree = "<group>"; };
+		949875291E84A83400E9800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9498752E1E84A83400E9800F /* DanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949875321E84A83400E9800F /* DanTangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangUITests.swift; sourceTree = "<group>"; };
+		949875341E84A83400E9800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949875561E84AA6C00E9800F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		949875571E84AA6C00E9800F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949875581E84AA6C00E9800F /* SettingCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingCell.plist; sourceTree = "<group>"; };
+		949875601E84AB1700E9800F /* YMNewfeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMNewfeatureViewController.swift; sourceTree = "<group>"; };
+		949875641E84AE3100E9800F /* YMConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMConst.swift; sourceTree = "<group>"; };
+		949875661E84AEA900E9800F /* YMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTabBarController.swift; sourceTree = "<group>"; };
+		949875681E84AF7F00E9800F /* YMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMNavigationController.swift; sourceTree = "<group>"; };
+		9498756A1E84B07700E9800F /* YMDanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMDanTangViewController.swift; sourceTree = "<group>"; };
+		9498756C1E84B09300E9800F /* YMMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMeViewController.swift; sourceTree = "<group>"; };
+		9498756E1E84B0A400E9800F /* YMProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductViewController.swift; sourceTree = "<group>"; };
+		949875701E84B0B500E9800F /* YMCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCategoryViewController.swift; sourceTree = "<group>"; };
+		949875721E84B12900E9800F /* YMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMBaseViewController.swift; sourceTree = "<group>"; };
+		949875741E84B23900E9800F /* YMNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMNetworkTool.swift; sourceTree = "<group>"; };
+		949875781E84B2B700E9800F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		9498757A1E84B30200E9800F /* UITableView+EmptyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyData.swift"; sourceTree = "<group>"; };
+		9498757C1E84B36F00E9800F /* YMVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVerticalButton.swift; sourceTree = "<group>"; };
+		9498757E1E84B3B900E9800F /* YMGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMGroup.swift; sourceTree = "<group>"; };
+		949875801E84B41B00E9800F /* YMCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCollection.swift; sourceTree = "<group>"; };
+		949875811E84B41B00E9800F /* YMCollectionPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCollectionPost.swift; sourceTree = "<group>"; };
+		949875841E84B42900E9800F /* YMChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMChannel.swift; sourceTree = "<group>"; };
+		949875851E84B42900E9800F /* YMHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMHomeItem.swift; sourceTree = "<group>"; };
+		949875861E84B42900E9800F /* YMSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSearchResult.swift; sourceTree = "<group>"; };
+		9498758A1E84B43A00E9800F /* YMSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSetting.swift; sourceTree = "<group>"; };
+		9498758C1E84B44500E9800F /* YMProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProduct.swift; sourceTree = "<group>"; };
+		9498758D1E84B44500E9800F /* YMProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductDetail.swift; sourceTree = "<group>"; };
+		9498758E1E84B44500E9800F /* YMComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMComment.swift; sourceTree = "<group>"; };
+		949875921E84B47D00E9800F /* YMSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSettingCell.swift; sourceTree = "<group>"; };
+		949875931E84B47D00E9800F /* YMSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSettingCell.xib; sourceTree = "<group>"; };
+		949875961E84B4A400E9800F /* YMMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMeFooterView.swift; sourceTree = "<group>"; };
+		949875971E84B4A400E9800F /* YMMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMineHeaderView.swift; sourceTree = "<group>"; };
+		9498759A1E84B5B200E9800F /* YMLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMLoginViewController.swift; sourceTree = "<group>"; };
+		9498759B1E84B5B200E9800F /* YMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMLoginViewController.xib; sourceTree = "<group>"; };
+		9498759E1E84B60F00E9800F /* YMRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMRegisterViewController.swift; sourceTree = "<group>"; };
+		9498759F1E84B60F00E9800F /* YMRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMRegisterViewController.xib; sourceTree = "<group>"; };
+		949875A21E84B63100E9800F /* YMMeChoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMeChoiceView.swift; sourceTree = "<group>"; };
+		949875A41E84B79100E9800F /* YMSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSettingViewController.swift; sourceTree = "<group>"; };
+		949875A61E84B80B00E9800F /* YMMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMMessageViewController.swift; sourceTree = "<group>"; };
+		949875A81E84B99800E9800F /* YMActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMActionSheet.swift; sourceTree = "<group>"; };
+		949875AA1E84BA3600E9800F /* YMShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMShareButtonView.swift; sourceTree = "<group>"; };
+		949875AC1E84BAED00E9800F /* YMCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCollectionViewCell.swift; sourceTree = "<group>"; };
+		949875AD1E84BAED00E9800F /* YMCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCollectionViewCell.xib; sourceTree = "<group>"; };
+		949875B01E84BB8700E9800F /* YMDetailChoiceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMDetailChoiceButtonView.swift; sourceTree = "<group>"; };
+		949875B11E84BB8700E9800F /* YMDetailChoiceButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMDetailChoiceButtonView.xib; sourceTree = "<group>"; };
+		949875B41E84BBAE00E9800F /* YMDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		949875B51E84BBAE00E9800F /* YMDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		949875B81E84BBBD00E9800F /* YMProductDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductDetailBottomView.swift; sourceTree = "<group>"; };
+		949875B91E84BBBD00E9800F /* YMProductDetailToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductDetailToolBar.swift; sourceTree = "<group>"; };
+		949875BA1E84BBBD00E9800F /* YMProductDetailToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMProductDetailToolBar.xib; sourceTree = "<group>"; };
+		949875BB1E84BBBD00E9800F /* YMProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductDetailTopView.swift; sourceTree = "<group>"; };
+		949875C01E84BBDE00E9800F /* YMDetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMDetailScrollView.swift; sourceTree = "<group>"; };
+		949875C11E84BBDE00E9800F /* YMCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCommentCell.swift; sourceTree = "<group>"; };
+		949875C21E84BBDE00E9800F /* YMCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCommentCell.xib; sourceTree = "<group>"; };
+		949875C61E84C23100E9800F /* YMHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMHomeCell.swift; sourceTree = "<group>"; };
+		949875C71E84C23100E9800F /* YMHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMHomeCell.xib; sourceTree = "<group>"; };
+		949875CA1E84C26900E9800F /* YMRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMRefreshControl.swift; sourceTree = "<group>"; };
+		949875CB1E84C26900E9800F /* YMRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMRefreshView.swift; sourceTree = "<group>"; };
+		949875CC1E84C26900E9800F /* YMRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMRefreshView.xib; sourceTree = "<group>"; };
+		949875D01E84C2F000E9800F /* YMSearchRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSearchRecordView.swift; sourceTree = "<group>"; };
+		949875D11E84C2F000E9800F /* YMSortCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSortCell.swift; sourceTree = "<group>"; };
+		949875D21E84C2F000E9800F /* YMSortCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSortCell.xib; sourceTree = "<group>"; };
+		949875D31E84C2F000E9800F /* YMSortTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSortTableView.swift; sourceTree = "<group>"; };
+		949875D81E84C3BD00E9800F /* YMDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMDetailViewController.swift; sourceTree = "<group>"; };
+		949875DA1E84C3C100E9800F /* YMSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSearchViewController.swift; sourceTree = "<group>"; };
+		949875DB1E84C3C100E9800F /* YMTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTopicViewController.swift; sourceTree = "<group>"; };
+		949875DE1E84C4D700E9800F /* YMProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMProductDetailViewController.swift; sourceTree = "<group>"; };
+		949875DF1E84C4D700E9800F /* YMTMALLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTMALLViewController.swift; sourceTree = "<group>"; };
+		949875E01E84C4D700E9800F /* YMTMALLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMTMALLViewController.xib; sourceTree = "<group>"; };
+		949875E41E84C64100E9800F /* YMCategoryBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCategoryBottomView.swift; sourceTree = "<group>"; };
+		949875E51E84C64100E9800F /* YMCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		949875E61E84C64100E9800F /* YMCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		949875E71E84C64100E9800F /* YMCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		949875E81E84C64100E9800F /* YMCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		949875E91E84C64100E9800F /* YMSeeAllTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSeeAllTopicCell.swift; sourceTree = "<group>"; };
+		949875EA1E84C64100E9800F /* YMSeeAllTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSeeAllTopicCell.xib; sourceTree = "<group>"; };
+		949875EB1E84C64100E9800F /* YMTopHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTopHeaderView.swift; sourceTree = "<group>"; };
+		949875EC1E84C64100E9800F /* YMTopHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMTopHeaderView.xib; sourceTree = "<group>"; };
+		949875F81E84F2BB00E9800F /* YMCollectionDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCollectionDetailController.swift; sourceTree = "<group>"; };
+		949875F91E84F2BB00E9800F /* YMCollectionDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCollectionDetailController.xib; sourceTree = "<group>"; };
+		949875FA1E84F2BB00E9800F /* YMPostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMPostDetailViewController.swift; sourceTree = "<group>"; };
+		949875FB1E84F2BB00E9800F /* YMPostDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMPostDetailViewController.xib; sourceTree = "<group>"; };
+		949875FC1E84F2BB00E9800F /* YMSeeAllController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMSeeAllController.swift; sourceTree = "<group>"; };
+		949875FD1E84F2BB00E9800F /* YMSeeAllController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSeeAllController.xib; sourceTree = "<group>"; };
+		949876041E84F2DB00E9800F /* YMCategoryHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMCategoryHeaderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9498750C1E84A83400E9800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B047E71690AFE0C408DD18D7 /* Pods_DanTang.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949875201E84A83400E9800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9498752B1E84A83400E9800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F191597D5576171B7ED3C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				447B24D7DBE168286FAA6968 /* Pods-DanTang.debug.xcconfig */,
+				50A9413FAEE0DE75FBD432EE /* Pods-DanTang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		949875061E84A83400E9800F = {
+			isa = PBXGroup;
+			children = (
+				949875111E84A83400E9800F /* DanTang */,
+				949875261E84A83400E9800F /* DanTangTests */,
+				949875311E84A83400E9800F /* DanTangUITests */,
+				949875101E84A83400E9800F /* Products */,
+				52F191597D5576171B7ED3C0 /* Pods */,
+				C15215F1E8AB8F5727492F63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		949875101E84A83400E9800F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9498750F1E84A83400E9800F /* DanTang.app */,
+				949875231E84A83400E9800F /* DanTangTests.xctest */,
+				9498752E1E84A83400E9800F /* DanTangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		949875111E84A83400E9800F /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				949875401E84AA6C00E9800F /* Classes */,
+				949875191E84A83400E9800F /* Assets.xcassets */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		949875261E84A83400E9800F /* DanTangTests */ = {
+			isa = PBXGroup;
+			children = (
+				949875271E84A83400E9800F /* DanTangTests.swift */,
+				949875291E84A83400E9800F /* Info.plist */,
+			);
+			path = DanTangTests;
+			sourceTree = "<group>";
+		};
+		949875311E84A83400E9800F /* DanTangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				949875321E84A83400E9800F /* DanTangUITests.swift */,
+				949875341E84A83400E9800F /* Info.plist */,
+			);
+			path = DanTangUITests;
+			sourceTree = "<group>";
+		};
+		949875401E84AA6C00E9800F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				949875411E84AA6C00E9800F /* Classify */,
+				949875451E84AA6C00E9800F /* DanTang */,
+				949875491E84AA6C00E9800F /* Login&Register */,
+				9498754D1E84AA6C00E9800F /* Main */,
+				949875511E84AA6C00E9800F /* Me */,
+				949875551E84AA6C00E9800F /* Others */,
+				949875591E84AA6C00E9800F /* Product */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		949875411E84AA6C00E9800F /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				949875421E84AA6C00E9800F /* Controller */,
+				949875431E84AA6C00E9800F /* Model */,
+				949875441E84AA6C00E9800F /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		949875421E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				949875701E84B0B500E9800F /* YMCategoryViewController.swift */,
+				949876041E84F2DB00E9800F /* YMCategoryHeaderViewController.swift */,
+				949875F81E84F2BB00E9800F /* YMCollectionDetailController.swift */,
+				949875F91E84F2BB00E9800F /* YMCollectionDetailController.xib */,
+				949875FA1E84F2BB00E9800F /* YMPostDetailViewController.swift */,
+				949875FB1E84F2BB00E9800F /* YMPostDetailViewController.xib */,
+				949875FC1E84F2BB00E9800F /* YMSeeAllController.swift */,
+				949875FD1E84F2BB00E9800F /* YMSeeAllController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949875431E84AA6C00E9800F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				949875801E84B41B00E9800F /* YMCollection.swift */,
+				949875811E84B41B00E9800F /* YMCollectionPost.swift */,
+				9498757E1E84B3B900E9800F /* YMGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		949875441E84AA6C00E9800F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9498757C1E84B36F00E9800F /* YMVerticalButton.swift */,
+				949875E41E84C64100E9800F /* YMCategoryBottomView.swift */,
+				949875E51E84C64100E9800F /* YMCategoryCollectionViewCell.swift */,
+				949875E61E84C64100E9800F /* YMCategoryCollectionViewCell.xib */,
+				949875E71E84C64100E9800F /* YMCollectionTableViewCell.swift */,
+				949875E81E84C64100E9800F /* YMCollectionTableViewCell.xib */,
+				949875E91E84C64100E9800F /* YMSeeAllTopicCell.swift */,
+				949875EA1E84C64100E9800F /* YMSeeAllTopicCell.xib */,
+				949875EB1E84C64100E9800F /* YMTopHeaderView.swift */,
+				949875EC1E84C64100E9800F /* YMTopHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949875451E84AA6C00E9800F /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				949875461E84AA6C00E9800F /* Controller */,
+				949875471E84AA6C00E9800F /* Model */,
+				949875481E84AA6C00E9800F /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		949875461E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9498756A1E84B07700E9800F /* YMDanTangViewController.swift */,
+				949875D81E84C3BD00E9800F /* YMDetailViewController.swift */,
+				949875DA1E84C3C100E9800F /* YMSearchViewController.swift */,
+				949875DB1E84C3C100E9800F /* YMTopicViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949875471E84AA6C00E9800F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				949875841E84B42900E9800F /* YMChannel.swift */,
+				949875851E84B42900E9800F /* YMHomeItem.swift */,
+				949875861E84B42900E9800F /* YMSearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		949875481E84AA6C00E9800F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				949875C61E84C23100E9800F /* YMHomeCell.swift */,
+				949875C71E84C23100E9800F /* YMHomeCell.xib */,
+				949875CA1E84C26900E9800F /* YMRefreshControl.swift */,
+				949875CB1E84C26900E9800F /* YMRefreshView.swift */,
+				949875CC1E84C26900E9800F /* YMRefreshView.xib */,
+				949875D01E84C2F000E9800F /* YMSearchRecordView.swift */,
+				949875D11E84C2F000E9800F /* YMSortCell.swift */,
+				949875D21E84C2F000E9800F /* YMSortCell.xib */,
+				949875D31E84C2F000E9800F /* YMSortTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949875491E84AA6C00E9800F /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				9498754A1E84AA6C00E9800F /* Controller */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		9498754A1E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9498759A1E84B5B200E9800F /* YMLoginViewController.swift */,
+				9498759B1E84B5B200E9800F /* YMLoginViewController.xib */,
+				949875601E84AB1700E9800F /* YMNewfeatureViewController.swift */,
+				9498759E1E84B60F00E9800F /* YMRegisterViewController.swift */,
+				9498759F1E84B60F00E9800F /* YMRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9498754D1E84AA6C00E9800F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				949875621E84AE2600E9800F /* Category */,
+				949875631E84AE2600E9800F /* Tools */,
+				9498754E1E84AA6C00E9800F /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9498754E1E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				949875721E84B12900E9800F /* YMBaseViewController.swift */,
+				949875661E84AEA900E9800F /* YMTabBarController.swift */,
+				949875681E84AF7F00E9800F /* YMNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949875511E84AA6C00E9800F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				949875521E84AA6C00E9800F /* Controller */,
+				949875531E84AA6C00E9800F /* Model */,
+				949875541E84AA6C00E9800F /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		949875521E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9498756C1E84B09300E9800F /* YMMeViewController.swift */,
+				949875A61E84B80B00E9800F /* YMMessageViewController.swift */,
+				949875A41E84B79100E9800F /* YMSettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949875531E84AA6C00E9800F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9498758A1E84B43A00E9800F /* YMSetting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		949875541E84AA6C00E9800F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				949875A21E84B63100E9800F /* YMMeChoiceView.swift */,
+				949875961E84B4A400E9800F /* YMMeFooterView.swift */,
+				949875971E84B4A400E9800F /* YMMineHeaderView.swift */,
+				949875921E84B47D00E9800F /* YMSettingCell.swift */,
+				949875931E84B47D00E9800F /* YMSettingCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949875551E84AA6C00E9800F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				949875561E84AA6C00E9800F /* AppDelegate.swift */,
+				949875571E84AA6C00E9800F /* Info.plist */,
+				949875581E84AA6C00E9800F /* SettingCell.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		949875591E84AA6C00E9800F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				9498755A1E84AA6C00E9800F /* Controller */,
+				9498755B1E84AA6C00E9800F /* Model */,
+				9498755C1E84AA6C00E9800F /* View */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		9498755A1E84AA6C00E9800F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9498756E1E84B0A400E9800F /* YMProductViewController.swift */,
+				949875DE1E84C4D700E9800F /* YMProductDetailViewController.swift */,
+				949875DF1E84C4D700E9800F /* YMTMALLViewController.swift */,
+				949875E01E84C4D700E9800F /* YMTMALLViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9498755B1E84AA6C00E9800F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9498758C1E84B44500E9800F /* YMProduct.swift */,
+				9498758D1E84B44500E9800F /* YMProductDetail.swift */,
+				9498758E1E84B44500E9800F /* YMComment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9498755C1E84AA6C00E9800F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				949875C01E84BBDE00E9800F /* YMDetailScrollView.swift */,
+				949875C11E84BBDE00E9800F /* YMCommentCell.swift */,
+				949875C21E84BBDE00E9800F /* YMCommentCell.xib */,
+				949875B81E84BBBD00E9800F /* YMProductDetailBottomView.swift */,
+				949875B91E84BBBD00E9800F /* YMProductDetailToolBar.swift */,
+				949875BA1E84BBBD00E9800F /* YMProductDetailToolBar.xib */,
+				949875BB1E84BBBD00E9800F /* YMProductDetailTopView.swift */,
+				949875AC1E84BAED00E9800F /* YMCollectionViewCell.swift */,
+				949875AD1E84BAED00E9800F /* YMCollectionViewCell.xib */,
+				949875B01E84BB8700E9800F /* YMDetailChoiceButtonView.swift */,
+				949875B11E84BB8700E9800F /* YMDetailChoiceButtonView.xib */,
+				949875B41E84BBAE00E9800F /* YMDetailCollectionViewCell.swift */,
+				949875B51E84BBAE00E9800F /* YMDetailCollectionViewCell.xib */,
+				949875AA1E84BA3600E9800F /* YMShareButtonView.swift */,
+				949875A81E84B99800E9800F /* YMActionSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949875621E84AE2600E9800F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				949875781E84B2B700E9800F /* UIView+Extension.swift */,
+				9498757A1E84B30200E9800F /* UITableView+EmptyData.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		949875631E84AE2600E9800F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				949875641E84AE3100E9800F /* YMConst.swift */,
+				949875741E84B23900E9800F /* YMNetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C15215F1E8AB8F5727492F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D5428C704355532C8677DA /* Pods_DanTang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9498750E1E84A83400E9800F /* DanTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949875371E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTang" */;
+			buildPhases = (
+				06626A20BE9D80F463697739 /* [CP] Check Pods Manifest.lock */,
+				9498750B1E84A83400E9800F /* Sources */,
+				9498750C1E84A83400E9800F /* Frameworks */,
+				9498750D1E84A83400E9800F /* Resources */,
+				F58D400C519EA2EFA38DC245 /* [CP] Embed Pods Frameworks */,
+				34DC90A511B9F435893FD9C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanTang;
+			productName = DanTang;
+			productReference = 9498750F1E84A83400E9800F /* DanTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		949875221E84A83400E9800F /* DanTangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9498753A1E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTangTests" */;
+			buildPhases = (
+				9498751F1E84A83400E9800F /* Sources */,
+				949875201E84A83400E9800F /* Frameworks */,
+				949875211E84A83400E9800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949875251E84A83400E9800F /* PBXTargetDependency */,
+			);
+			name = DanTangTests;
+			productName = DanTangTests;
+			productReference = 949875231E84A83400E9800F /* DanTangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9498752D1E84A83400E9800F /* DanTangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9498753D1E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTangUITests" */;
+			buildPhases = (
+				9498752A1E84A83400E9800F /* Sources */,
+				9498752B1E84A83400E9800F /* Frameworks */,
+				9498752C1E84A83400E9800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949875301E84A83400E9800F /* PBXTargetDependency */,
+			);
+			name = DanTangUITests;
+			productName = DanTangUITests;
+			productReference = 9498752E1E84A83400E9800F /* DanTangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		949875071E84A83400E9800F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hrscy;
+				TargetAttributes = {
+					9498750E1E84A83400E9800F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CK4C7KZJ97;
+						ProvisioningStyle = Automatic;
+					};
+					949875221E84A83400E9800F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CK4C7KZJ97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9498750E1E84A83400E9800F;
+					};
+					9498752D1E84A83400E9800F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CK4C7KZJ97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9498750E1E84A83400E9800F;
+					};
+				};
+			};
+			buildConfigurationList = 9498750A1E84A83400E9800F /* Build configuration list for PBXProject "DanTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 949875061E84A83400E9800F;
+			productRefGroup = 949875101E84A83400E9800F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9498750E1E84A83400E9800F /* DanTang */,
+				949875221E84A83400E9800F /* DanTangTests */,
+				9498752D1E84A83400E9800F /* DanTangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9498750D1E84A83400E9800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949875B71E84BBAE00E9800F /* YMDetailCollectionViewCell.xib in Resources */,
+				949875F31E84C64100E9800F /* YMSeeAllTopicCell.xib in Resources */,
+				949875F51E84C64100E9800F /* YMTopHeaderView.xib in Resources */,
+				949875D61E84C2F000E9800F /* YMSortCell.xib in Resources */,
+				949875B31E84BB8700E9800F /* YMDetailChoiceButtonView.xib in Resources */,
+				949875C91E84C23100E9800F /* YMHomeCell.xib in Resources */,
+				949875BE1E84BBBD00E9800F /* YMProductDetailToolBar.xib in Resources */,
+				9498755E1E84AA6C00E9800F /* Info.plist in Resources */,
+				949875FF1E84F2BB00E9800F /* YMCollectionDetailController.xib in Resources */,
+				949875E31E84C4D700E9800F /* YMTMALLViewController.xib in Resources */,
+				949875CF1E84C26900E9800F /* YMRefreshView.xib in Resources */,
+				949876011E84F2BB00E9800F /* YMPostDetailViewController.xib in Resources */,
+				949875EF1E84C64100E9800F /* YMCategoryCollectionViewCell.xib in Resources */,
+				9498759D1E84B5B200E9800F /* YMLoginViewController.xib in Resources */,
+				949875C51E84BBDE00E9800F /* YMCommentCell.xib in Resources */,
+				949876031E84F2BB00E9800F /* YMSeeAllController.xib in Resources */,
+				949875F11E84C64100E9800F /* YMCollectionTableViewCell.xib in Resources */,
+				949875AF1E84BAED00E9800F /* YMCollectionViewCell.xib in Resources */,
+				9498751A1E84A83400E9800F /* Assets.xcassets in Resources */,
+				949875A11E84B60F00E9800F /* YMRegisterViewController.xib in Resources */,
+				949875951E84B47D00E9800F /* YMSettingCell.xib in Resources */,
+				9498755F1E84AA6C00E9800F /* SettingCell.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949875211E84A83400E9800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9498752C1E84A83400E9800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06626A20BE9D80F463697739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34DC90A511B9F435893FD9C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang/Pods-DanTang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F58D400C519EA2EFA38DC245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTang/Pods-DanTang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9498750B1E84A83400E9800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949875691E84AF7F00E9800F /* YMNavigationController.swift in Sources */,
+				949875D71E84C2F000E9800F /* YMSortTableView.swift in Sources */,
+				949876001E84F2BB00E9800F /* YMPostDetailViewController.swift in Sources */,
+				949875D41E84C2F000E9800F /* YMSearchRecordView.swift in Sources */,
+				9498757F1E84B3B900E9800F /* YMGroup.swift in Sources */,
+				949876051E84F2DB00E9800F /* YMCategoryHeaderViewController.swift in Sources */,
+				949875A71E84B80B00E9800F /* YMMessageViewController.swift in Sources */,
+				949875D51E84C2F000E9800F /* YMSortCell.swift in Sources */,
+				949875941E84B47D00E9800F /* YMSettingCell.swift in Sources */,
+				949875881E84B42900E9800F /* YMHomeItem.swift in Sources */,
+				949875751E84B23900E9800F /* YMNetworkTool.swift in Sources */,
+				949875A51E84B79100E9800F /* YMSettingViewController.swift in Sources */,
+				949875C31E84BBDE00E9800F /* YMDetailScrollView.swift in Sources */,
+				949875F41E84C64100E9800F /* YMTopHeaderView.swift in Sources */,
+				949875BF1E84BBBD00E9800F /* YMProductDetailTopView.swift in Sources */,
+				949875EE1E84C64100E9800F /* YMCategoryCollectionViewCell.swift in Sources */,
+				949875FE1E84F2BB00E9800F /* YMCollectionDetailController.swift in Sources */,
+				949875611E84AB1700E9800F /* YMNewfeatureViewController.swift in Sources */,
+				9498757B1E84B30200E9800F /* UITableView+EmptyData.swift in Sources */,
+				949875DC1E84C3C100E9800F /* YMSearchViewController.swift in Sources */,
+				9498756B1E84B07700E9800F /* YMDanTangViewController.swift in Sources */,
+				949875BC1E84BBBD00E9800F /* YMProductDetailBottomView.swift in Sources */,
+				949875ED1E84C64100E9800F /* YMCategoryBottomView.swift in Sources */,
+				949875D91E84C3BD00E9800F /* YMDetailViewController.swift in Sources */,
+				949875731E84B12900E9800F /* YMBaseViewController.swift in Sources */,
+				949875E11E84C4D700E9800F /* YMProductDetailViewController.swift in Sources */,
+				949875991E84B4A400E9800F /* YMMineHeaderView.swift in Sources */,
+				949875CD1E84C26900E9800F /* YMRefreshControl.swift in Sources */,
+				949875AB1E84BA3600E9800F /* YMShareButtonView.swift in Sources */,
+				949875981E84B4A400E9800F /* YMMeFooterView.swift in Sources */,
+				949875671E84AEA900E9800F /* YMTabBarController.swift in Sources */,
+				9498759C1E84B5B200E9800F /* YMLoginViewController.swift in Sources */,
+				949875B21E84BB8700E9800F /* YMDetailChoiceButtonView.swift in Sources */,
+				949875A31E84B63100E9800F /* YMMeChoiceView.swift in Sources */,
+				949875BD1E84BBBD00E9800F /* YMProductDetailToolBar.swift in Sources */,
+				949875791E84B2B700E9800F /* UIView+Extension.swift in Sources */,
+				949875C41E84BBDE00E9800F /* YMCommentCell.swift in Sources */,
+				949875AE1E84BAED00E9800F /* YMCollectionViewCell.swift in Sources */,
+				949875871E84B42900E9800F /* YMChannel.swift in Sources */,
+				949875711E84B0B500E9800F /* YMCategoryViewController.swift in Sources */,
+				949875651E84AE3100E9800F /* YMConst.swift in Sources */,
+				949875A91E84B99800E9800F /* YMActionSheet.swift in Sources */,
+				9498756D1E84B09300E9800F /* YMMeViewController.swift in Sources */,
+				949875831E84B41B00E9800F /* YMCollectionPost.swift in Sources */,
+				949875C81E84C23100E9800F /* YMHomeCell.swift in Sources */,
+				9498756F1E84B0A400E9800F /* YMProductViewController.swift in Sources */,
+				949875F21E84C64100E9800F /* YMSeeAllTopicCell.swift in Sources */,
+				9498755D1E84AA6C00E9800F /* AppDelegate.swift in Sources */,
+				949875B61E84BBAE00E9800F /* YMDetailCollectionViewCell.swift in Sources */,
+				9498758B1E84B43A00E9800F /* YMSetting.swift in Sources */,
+				9498757D1E84B36F00E9800F /* YMVerticalButton.swift in Sources */,
+				949876021E84F2BB00E9800F /* YMSeeAllController.swift in Sources */,
+				949875911E84B44500E9800F /* YMComment.swift in Sources */,
+				949875901E84B44500E9800F /* YMProductDetail.swift in Sources */,
+				949875891E84B42900E9800F /* YMSearchResult.swift in Sources */,
+				949875821E84B41B00E9800F /* YMCollection.swift in Sources */,
+				949875DD1E84C3C100E9800F /* YMTopicViewController.swift in Sources */,
+				949875CE1E84C26900E9800F /* YMRefreshView.swift in Sources */,
+				949875E21E84C4D700E9800F /* YMTMALLViewController.swift in Sources */,
+				949875A01E84B60F00E9800F /* YMRegisterViewController.swift in Sources */,
+				9498758F1E84B44500E9800F /* YMProduct.swift in Sources */,
+				949875F01E84C64100E9800F /* YMCollectionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9498751F1E84A83400E9800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949875281E84A83400E9800F /* DanTangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9498752A1E84A83400E9800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949875331E84A83400E9800F /* DanTangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		949875251E84A83400E9800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9498750E1E84A83400E9800F /* DanTang */;
+			targetProxy = 949875241E84A83400E9800F /* PBXContainerItemProxy */;
+		};
+		949875301E84A83400E9800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9498750E1E84A83400E9800F /* DanTang */;
+			targetProxy = 9498752F1E84A83400E9800F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		949875351E84A83400E9800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		949875361E84A83400E9800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		949875381E84A83400E9800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447B24D7DBE168286FAA6968 /* Pods-DanTang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = "$(SRCROOT)/DanTang/Classes/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		949875391E84A83400E9800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A9413FAEE0DE75FBD432EE /* Pods-DanTang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = "$(SRCROOT)/DanTang/Classes/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9498753B1E84A83400E9800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = DanTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTang.app/DanTang";
+			};
+			name = Debug;
+		};
+		9498753C1E84A83400E9800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = DanTangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTang.app/DanTang";
+			};
+			name = Release;
+		};
+		9498753E1E84A83400E9800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = DanTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DanTang;
+			};
+			name = Debug;
+		};
+		9498753F1E84A83400E9800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK4C7KZJ97;
+				INFOPLIST_FILE = DanTangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrscy.DanTangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DanTang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9498750A1E84A83400E9800F /* Build configuration list for PBXProject "DanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949875351E84A83400E9800F /* Debug */,
+				949875361E84A83400E9800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949875371E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949875381E84A83400E9800F /* Debug */,
+				949875391E84A83400E9800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9498753A1E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9498753B1E84A83400E9800F /* Debug */,
+				9498753C1E84A83400E9800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9498753D1E84A83400E9800F /* Build configuration list for PBXNativeTarget "DanTangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9498753E1E84A83400E9800F /* Debug */,
+				9498753F1E84A83400E9800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 949875071E84A83400E9800F /* Project object */;
+}
